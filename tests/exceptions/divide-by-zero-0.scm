@@ -1,0 +1,5 @@
+(define x 3)
+(define y 9)
+(set! y (/ y x))
+(set! x (- x y))
+(/ y x)

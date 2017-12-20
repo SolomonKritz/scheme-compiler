@@ -1,0 +1,5 @@
+(define hello (apply string '(#\h #\e #\l #\l #\o)))
+(define hel "hello")
+(if (eq? hel hello)
+    (eq? (string #\w #\r #\o #\n #\g) "wrong")
+    (eq?  (string #\r #\i #\g #\h #\t)  "wrong"))

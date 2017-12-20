@@ -1,0 +1,5 @@
+(define hello-list1 (apply string->list '("Hello")))
+(define hello-list2 '(#\h #\e #\l #\l #\o))
+(if (eq? hello-list1 hello-list2)
+    (eq? (string->list "Eureka") '(#\E #\u #\r #\e #\k #\a))
+    (string->list "Back to the drawing board"))
